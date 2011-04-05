@@ -11,9 +11,6 @@
 @interface RootViewController : UIViewController {
 }
 
-- (void) Test2;
-- (void) XMLTest;
-- (void) ProtoClassTest;
 - (void) ProtoObjectFromMessage;
 
 - (IBAction) iboOk:(id) sender;

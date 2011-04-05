@@ -56,7 +56,7 @@
 		NSArray *parameters = [ProtoMethods objectForKey:key];
 		NSArray *newParameters = [NSArray arrayWithObjects:[[parameters objectAtIndex:0] copy], [[parameters objectAtIndex:1] copy], nil];
 		[newItem.ProtoMethods setObject:newParameters forKey:key];
-		[newParameters release];
+		//[newParameters release];
 	}
 	
 	for (NSString *key in ProtoHeaders) {
@@ -360,7 +360,7 @@
 			[ProtoClassObject clean];
 			
 			for (NSString *key in [[baseParameters objectAtIndex:1] ProtoProperties]) {
-				XMLElement *ElementData = [Element newSubElementByTagName:key recursive:false];
+				XMLElement *ElementData = [Element SubElementByTagName:key recursive:false];
 				NSArray *parameters = [[[baseParameters objectAtIndex:1] ProtoProperties] objectForKey:key];
 				NSString *ClassName = [[parameters objectAtIndex:0] copy];
 				
@@ -483,12 +483,12 @@
 	[Root clean];
 	[Root release];
 
-	XMLElement *ResponseBody = [ResponseRoot newSubElementByTagName:@"soap12:Body" recursive:false];
+	XMLElement *ResponseBody = [ResponseRoot SubElementByTagName:@"soap12:Body" recursive:false];
 	if (ResponseBody == nil) {
-		ResponseBody = [ResponseRoot newSubElementByTagName:@"soap:Body" recursive:false];
+		ResponseBody = [ResponseRoot SubElementByTagName:@"soap:Body" recursive:false];
 	}
-	XMLElement *xmlResponse = [ResponseBody newSubElementByTagName:[NSString stringWithFormat:@"%@Response", name] recursive:false];
-	XMLElement *xmlResult = [xmlResponse newSubElementByTagName:[NSString stringWithFormat:@"%@Result", name] recursive:false];
+	XMLElement *xmlResponse = [ResponseBody SubElementByTagName:[NSString stringWithFormat:@"%@Response", name] recursive:false];
+	XMLElement *xmlResult = [xmlResponse SubElementByTagName:[NSString stringWithFormat:@"%@Result", name] recursive:false];
 	
 	NSString *ResultName = [NSString stringWithFormat:@"%@Result", name];
 	

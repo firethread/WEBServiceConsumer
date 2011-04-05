@@ -43,15 +43,15 @@
 }
 
 - (XMLElement *) schTypes {
-	return [WSDL newSubElementByTagName:@"wsdl:types" recursive:false];
+	return [WSDL SubElementByTagName:@"wsdl:types" recursive:false];
 }
 
 - (XMLElement *) schSchema:(NSString *) schema {
-	return [[self schTypes] newSubElementByTagName:[NSString stringWithFormat:@"%@:schema", schema] recursive:false];
+	return [[self schTypes] SubElementByTagName:[NSString stringWithFormat:@"%@:schema", schema] recursive:false];
 }
 
 - (XMLElement *) wsdl_Service {
-	return [WSDL newSubElementByTagName:@"wsdl:service" recursive:false];
+	return [WSDL SubElementByTagName:@"wsdl:service" recursive:false];
 }
 
 - (XMLElement *) soap_ServiceURL:(NSString *)ClassName {
@@ -59,16 +59,16 @@
 	XMLElement *Port = nil;
 	
 	Condition = [NSPredicate predicateWithFormat:[NSString stringWithFormat:@"TagName == \"wsdl:port\" AND Attributes[\"name\"]==\"%@Soap12\"", ClassName]];
-	Port = [[self wsdl_Service] newSubElementByCondition:Condition recursive:false];
+	Port = [[self wsdl_Service] SubElementByCondition:Condition recursive:false];
 	
 	if (Port == nil) {
 		Condition = [NSPredicate predicateWithFormat:[NSString stringWithFormat:@"TagName == \"wsdl:port\" AND Attributes[\"name\"]==\"%@Soap\"", ClassName]];
-		Port = [[self wsdl_Service] newSubElementByCondition:Condition recursive:false];
+		Port = [[self wsdl_Service] SubElementByCondition:Condition recursive:false];
 	}
 	
-	XMLElement *Address = [Port newSubElementByTagName:@"soap12:address" recursive:false];
+	XMLElement *Address = [Port SubElementByTagName:@"soap12:address" recursive:false];
 	if (Address == nil) {
-		Address = [Port newSubElementByTagName:@"soap:address" recursive:false];
+		Address = [Port SubElementByTagName:@"soap:address" recursive:false];
 	}
 	
 	return Address;
@@ -133,11 +133,11 @@
 	XMLElement *Schema = [self schSchema:schema];
 
 	Condition = [NSPredicate predicateWithFormat:[NSString stringWithFormat:@"TagName == \"%@:complexType\" AND Attributes[\"name\"]==\"%@\"", schema, name]];
-	ComplexType = [Schema newSubElementByCondition:Condition recursive:false];
+	ComplexType = [Schema SubElementByCondition:Condition recursive:false];
 	
 	if (ComplexType == nil) {
 		Condition = [NSPredicate predicateWithFormat:[NSString stringWithFormat:@"TagName == \"%@:element\" AND Attributes[\"name\"]==\"%@\"", schema, name]];
-		ComplexType = [Schema newSubElementByCondition:Condition recursive:false];
+		ComplexType = [Schema SubElementByCondition:Condition recursive:false];
 	}
 
 	return ComplexType;
@@ -150,24 +150,24 @@
 	if (ComplexType != nil) {
 		ProtoObject = [self newProtoObject:name];
 		
-		XMLElement *ComplexContent = [ComplexType newSubElementByTagName:[NSString stringWithFormat:@"%@:complexContent", schema] recursive:false];
+		XMLElement *ComplexContent = [ComplexType SubElementByTagName:[NSString stringWithFormat:@"%@:complexContent", schema] recursive:false];
 		XMLElement *Sequence = nil;
 		NSString *extensionBaseTypeName = nil;
 		if (ComplexContent != nil) {
-			XMLElement *extension = [ComplexContent newSubElementByTagName:[NSString stringWithFormat:@"%@:extension", schema] recursive:false];
-			Sequence = [extension newSubElementByTagName:[NSString stringWithFormat:@"%@:sequence", schema] recursive:false];
+			XMLElement *extension = [ComplexContent SubElementByTagName:[NSString stringWithFormat:@"%@:extension", schema] recursive:false];
+			Sequence = [extension SubElementByTagName:[NSString stringWithFormat:@"%@:sequence", schema] recursive:false];
 			extensionBaseTypeName = [self excludeTagNamePrefix: [extension.Attributes objectForKey:@"base"]];
 		}
 		else {
-			Sequence = [ComplexContent newSubElementByTagName:[NSString stringWithFormat:@"%@:sequence", schema] recursive:false];
-			if (Sequence == nil) {
-				Sequence = [ComplexType newSubElementByTagName:[NSString stringWithFormat:@"%@:sequence", schema] recursive:false];
-			}
+			//Sequence = [ComplexContent SubElementByTagName:[NSString stringWithFormat:@"%@:sequence", schema] recursive:false];
+			//if (Sequence == nil) {
+				Sequence = [ComplexType SubElementByTagName:[NSString stringWithFormat:@"%@:sequence", schema] recursive:false];
+			//}
 		}
 		
 		if (Sequence == nil) {
-			ComplexContent = [ComplexType newSubElementByTagName:[NSString stringWithFormat:@"%@:complexType", schema] recursive:false];
-			Sequence = [ComplexContent newSubElementByTagName:[NSString stringWithFormat:@"%@:sequence", schema] recursive:false];
+			ComplexContent = [ComplexType SubElementByTagName:[NSString stringWithFormat:@"%@:complexType", schema] recursive:false];
+			Sequence = [ComplexContent SubElementByTagName:[NSString stringWithFormat:@"%@:sequence", schema] recursive:false];
 		}
 		
 		if (Sequence != nil) {
@@ -222,10 +222,10 @@
 
 - (WSDLProtoClass *) newGetProtoClassFromMessage:(NSString *)schema MessageName:(NSString *) MessageName {
 	NSPredicate *Condition = [NSPredicate predicateWithFormat:[NSString stringWithFormat:@"TagName == \"wsdl:message\" AND Attributes[\"name\"]==\"%@\"", [self excludeTagNamePrefix:MessageName]]];
-	XMLElement *Message = [WSDL newSubElementByCondition:Condition recursive:false];
+	XMLElement *Message = [WSDL SubElementByCondition:Condition recursive:false];
 	WSDLProtoClass *ProtoObject = nil;
 	if (Message != nil) {
-		XMLElement *Part = [Message newSubElementByTagName:@"wsdl:part" recursive:false];
+		XMLElement *Part = [Message SubElementByTagName:@"wsdl:part" recursive:false];
 		if (Part != nil) {
 			NSString *strTemp = [self excludeTagNamePrefix:[Part.Attributes objectForKey:@"element"]];
 			bool IsArray = [self isTypeIsArray:strTemp];
@@ -247,20 +247,20 @@
 
 	//Header
 	Condition = [NSPredicate predicateWithFormat:[NSString stringWithFormat:@"TagName == \"wsdl:binding\" AND Attributes[\"name\"]==\"%@Soap12\"", name]];
-	Binding = [self.WSDL newSubElementByCondition:Condition recursive:false];
+	Binding = [self.WSDL SubElementByCondition:Condition recursive:false];
 	if (Binding == nil) {
 		Condition = [NSPredicate predicateWithFormat:[NSString stringWithFormat:@"TagName == \"wsdl:binding\" AND Attributes[\"name\"]==\"%@Soap\"", name]];
-		Binding = [[self wsdl_Service] newSubElementByCondition:Condition recursive:false];
+		Binding = [[self wsdl_Service] SubElementByCondition:Condition recursive:false];
 	}
 	if (Binding != nil) {
 		NSArray *TempList = [Binding newSubElementsByTagName:@"wsdl:operation" recursive:false];
 		for (XMLElement *Operation in TempList) {
-			XMLElement *Input = [Operation newSubElementByTagName:@"wsdl:input" recursive:false];
+			XMLElement *Input = [Operation SubElementByTagName:@"wsdl:input" recursive:false];
 			if (Input != nil) {
-				XMLElement *Header = [Input newSubElementByTagName:@"soap12:header" recursive:false];
+				XMLElement *Header = [Input SubElementByTagName:@"soap12:header" recursive:false];
 				
 				if (Header == nil) {
-					Header = [Input newSubElementByTagName:@"soap:header" recursive:false];
+					Header = [Input SubElementByTagName:@"soap:header" recursive:false];
 				}
 				
 				if (Header != nil) {
@@ -276,16 +276,16 @@
 
 	//Parameters
 	Condition = [NSPredicate predicateWithFormat:[NSString stringWithFormat:@"TagName == \"wsdl:portType\" AND Attributes[\"name\"]==\"%@Soap12\"", name]];
-	XMLElement *PortType = [self.WSDL newSubElementByCondition:Condition recursive:false];
+	XMLElement *PortType = [self.WSDL SubElementByCondition:Condition recursive:false];
 	if (PortType == nil) {
 		Condition = [NSPredicate predicateWithFormat:[NSString stringWithFormat:@"TagName == \"wsdl:portType\" AND Attributes[\"name\"]==\"%@Soap\"", name]];
-		PortType = [self.WSDL newSubElementByCondition:Condition recursive:false];
+		PortType = [self.WSDL SubElementByCondition:Condition recursive:false];
 	}
 	if (PortType != nil) {
 		NSArray *TempList = [PortType newSubElementsByTagName:@"wsdl:operation" recursive:false];
 		for (XMLElement *operationItem in TempList) {
-			XMLElement *input = [operationItem newSubElementByTagName:@"wsdl:input" recursive:false];
-			XMLElement *output = [operationItem newSubElementByTagName:@"wsdl:output" recursive:false];
+			XMLElement *input = [operationItem SubElementByTagName:@"wsdl:input" recursive:false];
+			XMLElement *output = [operationItem SubElementByTagName:@"wsdl:output" recursive:false];
 			NSMutableArray *arguments = [[NSMutableArray alloc] init];
 			
 			WSDLProtoClass *TempMessage;

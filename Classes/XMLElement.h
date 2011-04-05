@@ -47,8 +47,8 @@
 
 - (XMLElement *) root;
 
-- (XMLElement *) newSubElementByTagName:(NSString *) tagName recursive:(bool) recursive;
-- (XMLElement *) newSubElementByCondition:(NSPredicate *) Condition recursive:(bool) recursive;
+- (XMLElement *) SubElementByTagName:(NSString *) tagName recursive:(bool) recursive;
+- (XMLElement *) SubElementByCondition:(NSPredicate *) Condition recursive:(bool) recursive;
 
 - (NSArray *) newSubElementsByTagName:(NSString *) tagName recursive:(bool) recursive;
 - (NSArray *) newSubElementsByCondition:(NSPredicate *) Condition recursive:(bool) recursive;

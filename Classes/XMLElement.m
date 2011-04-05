@@ -101,7 +101,7 @@
 
 //[NSPredicate predicateWithFormat:@"TagName == \"???\""]
 //[NSPredicate predicateWithFormat:@"Attributes[\"name\"] == \"value\""]
-- (XMLElement *) newSubElementByCondition:(NSPredicate *) Condition recursive:(bool) recursive {
+- (XMLElement *) SubElementByCondition:(NSPredicate *) Condition recursive:(bool) recursive {
 	XMLElement *Temp = nil;
 	NSArray *Elements = [self newSubElementsByCondition:Condition recursive:recursive];
 	
@@ -113,9 +113,9 @@
 	return Temp;
 }
 
-- (XMLElement *) newSubElementByTagName:(NSString *) tagName recursive:(bool) recursive {
+- (XMLElement *) SubElementByTagName:(NSString *) tagName recursive:(bool) recursive {
 	NSPredicate *Condition = [NSPredicate predicateWithFormat:@"TagName == %@", tagName];
-	return [self newSubElementByCondition:Condition recursive:recursive];
+	return [self SubElementByCondition:Condition recursive:recursive];
 }
 
 //[NSPredicate predicateWithFormat:@"TagName == \"???\""]
@@ -130,7 +130,9 @@
 	}
 	if (recursive) {
 		for (XMLElement* Item in self.newSubElementList) {
-			[Temp addObject:[Item newSubElementsByCondition:Condition recursive:recursive]];
+            NSArray *TempItem = [Item newSubElementsByCondition:Condition recursive:recursive];
+			[Temp addObject:TempItem];
+            [TempItem release];
 		}
 	}
 	return Temp;
