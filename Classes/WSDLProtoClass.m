@@ -99,6 +99,7 @@
 	[typeName isEqualToString:@"float"] ||
 	[typeName isEqualToString:@"integer"] ||
 	[typeName isEqualToString:@"int"] ||
+    [typeName isEqualToString:@"short"] ||
 	[typeName isEqualToString:@"boolean"] ||
 	[typeName isEqualToString:@"bool"] ||
 	//[typeName isEqualToString:@"date"] ||
@@ -158,7 +159,8 @@
 			Data = [NSArray arrayWithObjects:@"decimal", value, nil];
 		}
 		else if ([[Desc objectAtIndex:0] isEqualToString:@"integer"] ||
-				 [[Desc objectAtIndex:0] isEqualToString:@"int"]) {
+				 [[Desc objectAtIndex:0] isEqualToString:@"int"]||
+				 [[Desc objectAtIndex:0] isEqualToString:@"short"]) {
 			Data = [NSArray arrayWithObjects:@"int", value, nil];
 		}
 		else if ([[Desc objectAtIndex:0] isEqualToString:@"boolean"] ||
@@ -201,7 +203,8 @@
 		Temp = [NSString stringWithFormat:@"%1.2f", [[Data objectAtIndex:1] doubleValue]];
 	}
 	else if ([[Data objectAtIndex:0] isEqualToString:@"integer"] ||
-			 [[Data objectAtIndex:0] isEqualToString:@"int"]) {
+			 [[Data objectAtIndex:0] isEqualToString:@"int"]||
+             [[Data objectAtIndex:0] isEqualToString:@"short"]) {
 		Temp = [NSString stringWithFormat:@"%i", [[Data objectAtIndex:1] intValue]];
 	}
 	else if ([[Data objectAtIndex:0] isEqualToString:@"boolean"] ||
@@ -232,7 +235,8 @@
 		Temp = [NSNumber numberWithDouble:[[Data objectAtIndex:1] doubleValue]];
 	}
 	else if ([[Data objectAtIndex:0] isEqualToString:@"integer"] ||
-			 [[Data objectAtIndex:0] isEqualToString:@"int"]) {
+			 [[Data objectAtIndex:0] isEqualToString:@"int"] ||
+			 [[Data objectAtIndex:0] isEqualToString:@"short"]) {
 		Temp = [NSNumber numberWithDouble:[[Data objectAtIndex:1] intValue]];
 	}
 	else if ([[Data objectAtIndex:0] isEqualToString:@"boolean"] ||
@@ -272,7 +276,8 @@
 			[arguments release];
 		}
 		else if ([ArgName isEqualToString:@"integer"] || 
-				 [ArgName isEqualToString:@"int"]) {
+				 [ArgName isEqualToString:@"int"] || 
+				 [ArgName isEqualToString:@"short"]) {
 			arguments = [NSArray arrayWithObjects:ArgName, [NSNumber numberWithInt: [ArgValue intValue]], nil];
 			[self.ProtoProperties setObject:arguments forKey:Item.TagName];
 		}

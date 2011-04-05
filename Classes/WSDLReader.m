@@ -114,17 +114,18 @@
 
 - (bool) isSimpleTypeName:(NSString *) typeName {
 	return
-		[typeName isEqualToString:@"string"] ||
-		[typeName isEqualToString:@"double"] ||
-		[typeName isEqualToString:@"decimal"] ||
-		[typeName isEqualToString:@"float"] ||
-		[typeName isEqualToString:@"integer"] ||
-		[typeName isEqualToString:@"int"] ||
-		[typeName isEqualToString:@"boolean"] ||
-		[typeName isEqualToString:@"bool"] ||
-		//[typeName isEqualToString:@"date"] ||
-		//[typeName isEqualToString:@"time"] ||
-		[typeName isEqualToString:@"dateTime"];
+        [typeName isEqualToString:@"string"] ||
+        [typeName isEqualToString:@"double"] ||
+        [typeName isEqualToString:@"decimal"] ||
+        [typeName isEqualToString:@"float"] ||
+        [typeName isEqualToString:@"integer"] ||
+        [typeName isEqualToString:@"int"] ||
+        [typeName isEqualToString:@"short"] ||
+        [typeName isEqualToString:@"boolean"] ||
+        [typeName isEqualToString:@"bool"] ||
+        //[typeName isEqualToString:@"date"] ||
+        //[typeName isEqualToString:@"time"] ||
+        [typeName isEqualToString:@"dateTime"];
 }
 
 - (XMLElement *) GetBaseTypeTag:(NSString *)schema name:(NSString *)name {
