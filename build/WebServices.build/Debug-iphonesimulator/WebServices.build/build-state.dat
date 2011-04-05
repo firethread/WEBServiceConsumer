@@ -1,881 +1,0 @@
-TWebServices
-v3
-r1
-cCheck dependencies
-cProcessInfoPlistFile /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/WebServices.app/Info.plist WebServices-Info.plist
-cCompileXIB /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/MainWindow.xib
-cCompileXIB /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/RootViewController.xib
-cCompileXIB /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcConfigurations.xib
-cCompileXIB /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcWEBObjectIspector.xib
-cCompileXIB /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcServices.xib
-cCompileXIB /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcMethod.xib
-cProcessPCH /var/folders/RB/RBRU7QmHFxCxDwvM-FllAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebServices_Prefix-fcxhsguguofaynbxzauvjhegucee/WebServices_Prefix.pch.gch WebServices_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/main.o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/WebServicesAppDelegate.o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/WebServicesAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/WSDLProtoClass.o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/WSDLProtoClass.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/RootViewController.o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/WSDLReader.o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/WSDLReader.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/XMLElement.o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/XMLElement.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/Service.o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/Service.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/UserProfileResponse.o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/UserProfileResponse.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/UserProfileResult.o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/UserProfileResult.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/UserProfileData.o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/UserProfileData.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/UserProfile.o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/UserProfile.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/Children.o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/Children.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/AuthHeader.o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/AuthHeader.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/vcConfigurations.o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcConfigurations.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/ListChildren.o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/ListChildren.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/vcWEBObjectIspector.o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcWEBObjectIspector.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/vcServices.o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcServices.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/vcMethod.o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcMethod.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/WebServices.app/WebServices normal i386
-cGenerateDSYMFile /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/WebServices.app.dSYM /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/WebServices.app/WebServices
-cTouch /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/WebServices.app
-
-N/Developer4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
-c000000004D5C9B4E0000000000000110
-t1297914702
-s272
-
-N/Developer4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004D54CFFA00000000002999B0
-t1297403898
-s2726320
-
-N/Developer4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004D54CFE5000000000029DA70
-t1297403877
-s2742896
-
-N/Developer4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004D54CFB80000000000001466
-t1297403832
-s5222
-
-N/Developer4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004D5615B40000000000000AA1
-t1297487284
-s2721
-
-N/Developer4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004D5616030000000000766870
-t1297487363
-s7759984
-
-N/Developer4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/Availability.h
-c000000004D4F7A2B0000000000001B19
-t1297054251
-s6937
-
-N/Developer4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/objc/runtime.h
-c000000004D54CB4300000000000063AF
-t1297402691
-s25519
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/AuthHeader.h
-c000000004D942BF10000000000000168
-t1301556209
-s360
-i<Foundation/Foundation.h>
-i"WSDLProtoClass.h"
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/AuthHeader.m
-c000000004D942BF100000000000000F4
-t1301556209
-s244
-i"AuthHeader.h"
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/Children.h
-c000000004D942BF1000000000000018B
-t1301556209
-s395
-i<Foundation/Foundation.h>
-i"WSDLProtoClass.h"
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/Children.m
-c000000004D942BF100000000000000E6
-t1301556209
-s230
-i"Children.h"
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/ListChildren.h
-c000000004D942BF1000000000000015F
-t1301556209
-s351
-i<Foundation/Foundation.h>
-i"WSDLProtoClass.h"
-i"Children.h"
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/ListChildren.m
-c000000004D942BF100000000000000F1
-t1301556209
-s241
-i"ListChildren.h"
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/RootViewController.h
-c000000004D944F130000000000000131
-t1301565203
-s305
-i<UIKit/UIKit.h>
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/RootViewController.m
-c000000004D947B630000000000000F29
-t1301576547
-s3881
-i"RootViewController.h"
-i"WSDLReader.h"
-i"Service.h"
-i"UserProfile.h"
-i"UserProfileData.h"
-i"UserProfileResponse.h"
-i"UserProfileResult.h"
-i"AuthHeader.h"
-i"XMLElement.h"
-i"vcConfigurations.h"
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/Service.h
-c000000004D942BF10000000000000216
-t1301556209
-s534
-i<Foundation/Foundation.h>
-i"WSDLProtoClass.h"
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/Service.m
-c000000004D942BF100000000000000C8
-t1301556209
-s200
-i"Service.h"
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/UserProfile.h
-c000000004D942BF10000000000000162
-t1301556209
-s354
-i<Foundation/Foundation.h>
-i"WSDLProtoClass.h"
-i"UserProfileData.h"
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/UserProfile.m
-c000000004D942BF100000000000000EB
-t1301556209
-s235
-i"UserProfile.h"
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/UserProfileData.h
-c000000004D942BF10000000000000113
-t1301556209
-s275
-i<Foundation/Foundation.h>
-i"UserProfileResult.h"
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/UserProfileData.m
-c000000004D942BF100000000000000DC
-t1301556209
-s220
-i"UserProfileData.h"
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/UserProfileResponse.h
-c000000004D942BF10000000000000178
-t1301556209
-s376
-i<Foundation/Foundation.h>
-i"WSDLProtoClass.h"
-i"UserProfileResult.h"
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/UserProfileResponse.m
-c000000004D942BF10000000000000105
-t1301556209
-s261
-i"UserProfileResponse.h"
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/UserProfileResult.h
-c000000004D942BF10000000000000281
-t1301556209
-s641
-i<Foundation/Foundation.h>
-i"WSDLProtoClass.h"
-i"ListChildren.h"
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/UserProfileResult.m
-c000000004D942BF10000000000000128
-t1301556209
-s296
-i"UserProfileResult.h"
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/WSDLProtoClass.h
-c000000004D942BF100000000000008DA
-t1301556209
-s2266
-i<Foundation/Foundation.h>
-i"XMLElement.h"
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/WSDLProtoClass.m
-c000000004D9444070000000000005261
-t1301562375
-s21089
-i"WSDLProtoClass.h"
-i"WSDLReader.h"
-i<objc/runtime.h>
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/WSDLReader.h
-c000000004D942BF10000000000000533
-t1301556209
-s1331
-i<Foundation/Foundation.h>
-i"XMLElement.h"
-i"WSDLProtoClass.h"
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/WSDLReader.m
-c000000004D9439E000000000000031B0
-t1301559776
-s12720
-i"WSDLReader.h"
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/WebServicesAppDelegate.h
-c000000004D942BF100000000000001E4
-t1301556209
-s484
-i<UIKit/UIKit.h>
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/WebServicesAppDelegate.m
-c000000004D942BF10000000000000ABB
-t1301556209
-s2747
-i"WebServicesAppDelegate.h"
-i"RootViewController.h"
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/XMLElement.h
-c000000004D9437830000000000000785
-t1301559171
-s1925
-i<Foundation/Foundation.h>
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/XMLElement.m
-c000000004D94427D0000000000001B1E
-t1301561981
-s6942
-i"XMLElement.h"
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcConfigurations.h
-c000000004D9B0EA60000000000000207
-t1302007462
-s519
-i<UIKit/UIKit.h>
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcConfigurations.m
-c000000004D94A40E0000000000000F08
-t1301586958
-s3848
-i"vcConfigurations.h"
-i"vcServices.h"
-i"WSDLReader.h"
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcConfigurations.xib
-c000000004D9B12020000000000004551
-t1302008322
-s17745
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcMethod.h
-c000000004D9AD110000000000000032D
-t1301991696
-s813
-i<UIKit/UIKit.h>
-i"WSDLReader.h"
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcMethod.m
-c000000004D9B0B5F00000000000013C1
-t1302006623
-s5057
-i"vcMethod.h"
-i"WSDLProtoClass.h"
-i"vcWEBObjectIspector.h"
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcMethod.xib
-c000000004D94AFA00000000000002FCD
-t1301589920
-s12237
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcServices.h
-c000000004D949FF300000000000001B1
-t1301585907
-s433
-i<UIKit/UIKit.h>
-i"WSDLReader.h"
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcServices.m
-c000000004D9AD870000000000000094A
-t1301993584
-s2378
-i"vcServices.h"
-i"vcMethod.h"
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcServices.xib
-c000000004D949E9300000000000022D1
-t1301585555
-s8913
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcWEBObjectIspector.h
-c000000004D9B0BF4000000000000025E
-t1302006772
-s606
-i<UIKit/UIKit.h>
-i"WSDLReader.h"
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcWEBObjectIspector.m
-c000000004D9B161B0000000000000F4B
-t1302009371
-s3915
-i"vcWEBObjectIspector.h"
-i"WSDLProtoClass.h"
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcWEBObjectIspector.xib
-c000000004D9481A600000000000022EC
-t1301578150
-s8940
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/MainWindow.xib
-c000000004D942BF10000000000006004
-t1301556209
-s24580
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/RootViewController.xib
-c000000004D9B0E5100000000000022A5
-t1302007377
-s8869
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/WebServices_Prefix.pch
-c000000004D942BF10000000000000148
-t1301556209
-s328
-i<Availability.h>
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/WebServices.app
-t1302009222
-s374
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/WebServices.app.dSYM
-t1302009222
-s102
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/WebServices.app/Info.plist
-t1301989977
-s674
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/WebServices.app/MainWindow.nib
-t1301989984
-s2444
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/WebServices.app/PkgInfo
-t1301989977
-s8
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/WebServices.app/RootViewController.nib
-t1302007625
-s2350
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/WebServices.app/WebServices
-t1302009222
-s125676
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/WebServices.app/vcConfigurations.nib
-t1302008554
-s3643
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/WebServices.app/vcMethod.nib
-t1301989984
-s1684
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/WebServices.app/vcServices.nib
-t1301989984
-s1491
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/WebServices.app/vcWEBObjectIspector.nib
-t1301989984
-s1491
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/AuthHeader.o
-t1301989999
-s5304
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/Children.o
-t1301989999
-s5344
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/ListChildren.o
-t1301989999
-s5300
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/RootViewController.o
-t1302007626
-s49924
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/Service.o
-t1301989998
-s5664
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/UserProfile.o
-t1301989999
-s5296
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/UserProfileData.o
-t1301989999
-s5204
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/UserProfileResponse.o
-t1301989998
-s5372
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/UserProfileResult.o
-t1301989999
-s5580
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/WSDLProtoClass.o
-t1301989998
-s73572
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/WSDLReader.o
-t1301989998
-s40192
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/WebServices.LinkFileList
-c000000004D9ACA590000000000000AD0
-t1301989977
-s2768
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/WebServicesAppDelegate.o
-t1301989998
-s53300
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/XMLElement.o
-t1301989998
-s43344
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/main.o
-t1301989998
-s6344
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/vcConfigurations.o
-t1302007626
-s59644
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/vcMethod.o
-t1302006773
-s60660
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/vcServices.o
-t1301993585
-s48436
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/vcWEBObjectIspector.o
-t2
-s0
-
-N/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/main.m
-c000000004D942C420000000000000166
-t1301556290
-s358
-i<UIKit/UIKit.h>
-
-N/var/folders/RB/RBRU7QmHFxCxDwvM-FllAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebServices_Prefix-fcxhsguguofaynbxzauvjhegucee/WebServices_Prefix.pch.gch
-t1301989997
-s15814064
-
-NWebServices-Info.plist
-c000000004D942BF100000000000003E6
-t1301556209
-s998
-
-CBuild AST from /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/AuthHeader.m
-r0
-
-CBuild AST from /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/Children.m
-r0
-
-CBuild AST from /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/ListChildren.m
-r0
-
-CBuild AST from /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/RootViewController.m
-r0
-
-CBuild AST from /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/Service.m
-r0
-
-CBuild AST from /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/UserProfile.m
-r0
-
-CBuild AST from /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/UserProfileData.m
-r0
-
-CBuild AST from /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/UserProfileResponse.m
-r0
-
-CBuild AST from /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/UserProfileResult.m
-r0
-
-CBuild AST from /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/WSDLProtoClass.m
-r0
-
-CBuild AST from /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/WSDLReader.m
-r0
-
-CBuild AST from /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/WebServicesAppDelegate.m
-r0
-
-CBuild AST from /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/XMLElement.m
-r0
-
-CBuild AST from /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcConfigurations.m
-r0
-
-CBuild AST from /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcMethod.m
-r0
-
-CBuild AST from /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcServices.m
-r0
-
-CBuild AST from /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcWEBObjectIspector.m
-r0
-
-CBuild AST from /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/main.m
-r0
-
-CCheck dependencies
-r0
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesddeb5c9b4d4bb341^38306d9b4d4bb341^---0#1#0#--18"Check dependencies
-
-CCompileC build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/AuthHeader.o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/AuthHeader.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s323682799.182130
-e323682799.264515
-r1
-xCompileC
-xbuild/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/AuthHeader.o
-x/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/AuthHeader.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/AuthHeader.m56bb2eef014bb341^40bf43ef014bb341^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/AuthHeader.m0000000000000000^2362"CompileC build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/AuthHeader.o Classes/AuthHeader.m normal i386 objective-c com.apple.compilers.gcc.4_2    cd /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer4/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer4/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-generated-files.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-own-target-headers.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-all-target-headers.hmap -iquote /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-project-headers.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/include -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/DerivedSources/i386 -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/DerivedSources -F/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator -include /var/folders/RB/RBRU7QmHFxCxDwvM-FllAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebServices_Prefix-fcxhsguguofaynbxzauvjhegucee/WebServices_Prefix.pch -c /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/AuthHeader.m -o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/AuthHeader.o
-
-CCompileC build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/Children.o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/Children.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s323682799.099475
-e323682799.190750
-r1
-xCompileC
-xbuild/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/Children.o
-x/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/Children.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/Children.mcc9919ef014bb341^99d430ef014bb341^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/Children.m0000000000000000^2354"CompileC build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/Children.o Classes/Children.m normal i386 objective-c com.apple.compilers.gcc.4_2    cd /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer4/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer4/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-generated-files.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-own-target-headers.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-all-target-headers.hmap -iquote /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-project-headers.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/include -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/DerivedSources/i386 -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/DerivedSources -F/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator -include /var/folders/RB/RBRU7QmHFxCxDwvM-FllAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebServices_Prefix-fcxhsguguofaynbxzauvjhegucee/WebServices_Prefix.pch -c /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/Children.m -o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/Children.o
-
-CCompileC build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/ListChildren.o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/ListChildren.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s323682799.100048
-e323682799.181729
-r1
-xCompileC
-xbuild/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/ListChildren.o
-x/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/ListChildren.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/ListChildren.mf2b319ef014bb341^0d8e2eef014bb341^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/ListChildren.m0000000000000000^2370"CompileC build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/ListChildren.o Classes/ListChildren.m normal i386 objective-c com.apple.compilers.gcc.4_2    cd /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer4/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer4/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-generated-files.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-own-target-headers.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-all-target-headers.hmap -iquote /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-project-headers.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/include -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/DerivedSources/i386 -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/DerivedSources -F/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator -include /var/folders/RB/RBRU7QmHFxCxDwvM-FllAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebServices_Prefix-fcxhsguguofaynbxzauvjhegucee/WebServices_Prefix.pch -c /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/ListChildren.m -o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/ListChildren.o
-
-CCompileC build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/RootViewController.o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s323700425.960085
-e323700426.059178
-r1
-xCompileC
-xbuild/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/RootViewController.o
-x/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/RootViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/RootViewController.m08e5f5c9464bb341^a2250fca464bb341^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/RootViewController.m0000000000000000^2394"CompileC build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/RootViewController.o Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2    cd /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer4/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer4/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-generated-files.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-own-target-headers.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-all-target-headers.hmap -iquote /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-project-headers.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/include -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/DerivedSources/i386 -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/DerivedSources -F/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator -include /var/folders/RB/RBRU7QmHFxCxDwvM-FllAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebServices_Prefix-fcxhsguguofaynbxzauvjhegucee/WebServices_Prefix.pch -c /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/RootViewController.m -o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/RootViewController.o
-
-CCompileC build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/Service.o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/Service.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s323682798.780555
-e323682798.934023
-r1
-xCompileC
-xbuild/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/Service.o
-x/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/Service.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/Service.me9edc7ee014bb341^ac1befee014bb341^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/Service.m0000000000000000^2350"CompileC build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/Service.o Classes/Service.m normal i386 objective-c com.apple.compilers.gcc.4_2    cd /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer4/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer4/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-generated-files.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-own-target-headers.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-all-target-headers.hmap -iquote /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-project-headers.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/include -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/DerivedSources/i386 -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/DerivedSources -F/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator -include /var/folders/RB/RBRU7QmHFxCxDwvM-FllAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebServices_Prefix-fcxhsguguofaynbxzauvjhegucee/WebServices_Prefix.pch -c /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/Service.m -o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/Service.o
-
-CCompileC build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/UserProfile.o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/UserProfile.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s323682799.023116
-e323682799.099323
-r1
-xCompileC
-xbuild/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/UserProfile.o
-x/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/UserProfile.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/UserProfile.m310606ef014bb341^b56c19ef014bb341^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/UserProfile.m0000000000000000^2366"CompileC build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/UserProfile.o Classes/UserProfile.m normal i386 objective-c com.apple.compilers.gcc.4_2    cd /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer4/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer4/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-generated-files.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-own-target-headers.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-all-target-headers.hmap -iquote /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-project-headers.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/include -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/DerivedSources/i386 -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/DerivedSources -F/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator -include /var/folders/RB/RBRU7QmHFxCxDwvM-FllAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebServices_Prefix-fcxhsguguofaynbxzauvjhegucee/WebServices_Prefix.pch -c /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/UserProfile.m -o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/UserProfile.o
-
-CCompileC build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/UserProfileData.o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/UserProfileData.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s323682798.999221
-e323682799.099852
-r1
-xCompileC
-xbuild/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/UserProfileData.o
-x/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/UserProfileData.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/UserProfileData.m42e9ffee014bb341^a79219ef014bb341^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/UserProfileData.m0000000000000000^2382"CompileC build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/UserProfileData.o Classes/UserProfileData.m normal i386 objective-c com.apple.compilers.gcc.4_2    cd /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer4/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer4/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-generated-files.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-own-target-headers.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-all-target-headers.hmap -iquote /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-project-headers.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/include -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/DerivedSources/i386 -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/DerivedSources -F/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator -include /var/folders/RB/RBRU7QmHFxCxDwvM-FllAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebServices_Prefix-fcxhsguguofaynbxzauvjhegucee/WebServices_Prefix.pch -c /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/UserProfileData.m -o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/UserProfileData.o
-
-CCompileC build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/UserProfileResponse.o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/UserProfileResponse.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s323682798.906246
-e323682798.998677
-r1
-xCompileC
-xbuild/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/UserProfileResponse.o
-x/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/UserProfileResponse.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/UserProfileResponse.m4b1de8ee014bb341^d1b1ffee014bb341^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/UserProfileResponse.m0000000000000000^2398"CompileC build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/UserProfileResponse.o Classes/UserProfileResponse.m normal i386 objective-c com.apple.compilers.gcc.4_2    cd /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer4/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer4/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-generated-files.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-own-target-headers.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-all-target-headers.hmap -iquote /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-project-headers.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/include -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/DerivedSources/i386 -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/DerivedSources -F/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator -include /var/folders/RB/RBRU7QmHFxCxDwvM-FllAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebServices_Prefix-fcxhsguguofaynbxzauvjhegucee/WebServices_Prefix.pch -c /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/UserProfileResponse.m -o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/UserProfileResponse.o
-
-CCompileC build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/UserProfileResult.o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/UserProfileResult.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s323682798.934177
-e323682799.022754
-r1
-xCompileC
-xbuild/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/UserProfileResult.o
-x/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/UserProfileResult.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/UserProfileResult.m4b5cefee014bb341^5bd205ef014bb341^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/UserProfileResult.m0000000000000000^2390"CompileC build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/UserProfileResult.o Classes/UserProfileResult.m normal i386 objective-c com.apple.compilers.gcc.4_2    cd /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer4/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer4/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-generated-files.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-own-target-headers.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-all-target-headers.hmap -iquote /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-project-headers.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/include -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/DerivedSources/i386 -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/DerivedSources -F/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator -include /var/folders/RB/RBRU7QmHFxCxDwvM-FllAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebServices_Prefix-fcxhsguguofaynbxzauvjhegucee/WebServices_Prefix.pch -c /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/UserProfileResult.m -o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/UserProfileResult.o
-
-CCompileC build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/WSDLProtoClass.o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/WSDLProtoClass.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s323682798.333284
-e323682798.628945
-r1
-xCompileC
-xbuild/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/WSDLProtoClass.o
-x/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/WSDLProtoClass.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/WSDLProtoClass.ma47055ee014bb341^130aa1ee014bb341^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/WSDLProtoClass.m0000000000000000^2378"CompileC build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/WSDLProtoClass.o Classes/WSDLProtoClass.m normal i386 objective-c com.apple.compilers.gcc.4_2    cd /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer4/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer4/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-generated-files.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-own-target-headers.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-all-target-headers.hmap -iquote /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-project-headers.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/include -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/DerivedSources/i386 -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/DerivedSources -F/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator -include /var/folders/RB/RBRU7QmHFxCxDwvM-FllAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebServices_Prefix-fcxhsguguofaynbxzauvjhegucee/WebServices_Prefix.pch -c /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/WSDLProtoClass.m -o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/WSDLProtoClass.o
-
-CCompileC build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/WSDLReader.o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/WSDLReader.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s323682798.575783
-e323682798.780404
-r1
-xCompileC
-xbuild/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/WSDLReader.o
-x/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/WSDLReader.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/WSDLReader.m958193ee014bb341^19c8c7ee014bb341^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/WSDLReader.m0000000000000000^2362"CompileC build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/WSDLReader.o Classes/WSDLReader.m normal i386 objective-c com.apple.compilers.gcc.4_2    cd /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer4/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer4/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-generated-files.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-own-target-headers.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-all-target-headers.hmap -iquote /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-project-headers.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/include -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/DerivedSources/i386 -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/DerivedSources -F/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator -include /var/folders/RB/RBRU7QmHFxCxDwvM-FllAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebServices_Prefix-fcxhsguguofaynbxzauvjhegucee/WebServices_Prefix.pch -c /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/WSDLReader.m -o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/WSDLReader.o
-
-CCompileC build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/WebServicesAppDelegate.o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/WebServicesAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s323682797.726386
-e323682798.333136
-r1
-xCompileC
-xbuild/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/WebServicesAppDelegate.o
-x/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/WebServicesAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/WebServicesAppDelegate.m520abaed014bb341^8c8155ee014bb341^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/WebServicesAppDelegate.m0000000000000000^2410"CompileC build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/WebServicesAppDelegate.o Classes/WebServicesAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2    cd /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer4/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer4/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-generated-files.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-own-target-headers.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-all-target-headers.hmap -iquote /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-project-headers.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/include -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/DerivedSources/i386 -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/DerivedSources -F/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator -include /var/folders/RB/RBRU7QmHFxCxDwvM-FllAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebServices_Prefix-fcxhsguguofaynbxzauvjhegucee/WebServices_Prefix.pch -c /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/WebServicesAppDelegate.m -o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/WebServicesAppDelegate.o
-
-CCompileC build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/XMLElement.o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/XMLElement.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s323682798.629351
-e323682798.905713
-r1
-xCompileC
-xbuild/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/XMLElement.o
-x/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/XMLElement.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/XMLElement.m1c42a1ee014bb341^bde4e7ee014bb341^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/XMLElement.m0000000000000000^2362"CompileC build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/XMLElement.o Classes/XMLElement.m normal i386 objective-c com.apple.compilers.gcc.4_2    cd /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer4/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer4/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-generated-files.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-own-target-headers.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-all-target-headers.hmap -iquote /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-project-headers.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/include -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/DerivedSources/i386 -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/DerivedSources -F/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator -include /var/folders/RB/RBRU7QmHFxCxDwvM-FllAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebServices_Prefix-fcxhsguguofaynbxzauvjhegucee/WebServices_Prefix.pch -c /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/XMLElement.m -o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/XMLElement.o
-
-CCompileC build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/main.o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s323682797.725855
-e323682798.295704
-r1
-xCompileC
-xbuild/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/main.o
-x/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/main.m96ebb9ed014bb341^9ab24bee014bb341^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/main.m0000000000000000^2322"CompileC build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/main.o main.m normal i386 objective-c com.apple.compilers.gcc.4_2    cd /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer4/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer4/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-generated-files.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-own-target-headers.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-all-target-headers.hmap -iquote /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-project-headers.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/include -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/DerivedSources/i386 -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/DerivedSources -F/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator -include /var/folders/RB/RBRU7QmHFxCxDwvM-FllAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebServices_Prefix-fcxhsguguofaynbxzauvjhegucee/WebServices_Prefix.pch -c /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/main.m -o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/main.o
-
-CCompileC build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/vcConfigurations.o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcConfigurations.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s323700425.961571
-e323700426.104944
-r1
-xCompileC
-xbuild/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/vcConfigurations.o
-x/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcConfigurations.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcConfigurations.mff3ff6c9464bb341^dee51aca464bb341^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcConfigurations.m0000000000000000^2386"CompileC build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/vcConfigurations.o Classes/vcConfigurations.m normal i386 objective-c com.apple.compilers.gcc.4_2    cd /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer4/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer4/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-generated-files.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-own-target-headers.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-all-target-headers.hmap -iquote /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-project-headers.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/include -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/DerivedSources/i386 -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/DerivedSources -F/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator -include /var/folders/RB/RBRU7QmHFxCxDwvM-FllAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebServices_Prefix-fcxhsguguofaynbxzauvjhegucee/WebServices_Prefix.pch -c /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcConfigurations.m -o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/vcConfigurations.o
-
-CCompileC build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/vcMethod.o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcMethod.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s323699572.387007
-e323699573.275611
-r1
-xCompileC
-xbuild/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/vcMethod.o
-x/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcMethod.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcMethod.m80296374434bb341^2b144975434bb341^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcMethod.m0000000000000000^2354"CompileC build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/vcMethod.o Classes/vcMethod.m normal i386 objective-c com.apple.compilers.gcc.4_2    cd /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer4/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer4/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-generated-files.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-own-target-headers.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-all-target-headers.hmap -iquote /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-project-headers.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/include -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/DerivedSources/i386 -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/DerivedSources -F/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator -include /var/folders/RB/RBRU7QmHFxCxDwvM-FllAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebServices_Prefix-fcxhsguguofaynbxzauvjhegucee/WebServices_Prefix.pch -c /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcMethod.m -o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/vcMethod.o
-
-CCompileC build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/vcServices.o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcServices.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s323686385.100129
-e323686385.313098
-r1
-xCompileC
-xbuild/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/vcServices.o
-x/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcServices.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcServices.m84b919f10f4bb341^e3fd50f10f4bb341^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcServices.m0000000000000000^2362"CompileC build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/vcServices.o Classes/vcServices.m normal i386 objective-c com.apple.compilers.gcc.4_2    cd /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer4/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer4/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-generated-files.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-own-target-headers.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-all-target-headers.hmap -iquote /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-project-headers.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/include -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/DerivedSources/i386 -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/DerivedSources -F/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator -include /var/folders/RB/RBRU7QmHFxCxDwvM-FllAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebServices_Prefix-fcxhsguguofaynbxzauvjhegucee/WebServices_Prefix.pch -c /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcServices.m -o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/vcServices.o
-
-CCompileC build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/vcWEBObjectIspector.o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcWEBObjectIspector.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s323702171.447038
-e323702171.630529
-r1
-xCompileC
-xbuild/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/vcWEBObjectIspector.o
-x/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcWEBObjectIspector.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcWEBObjectIspector.m698c729b4d4bb341^6517a49b4d4bb341^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcWEBObjectIspector.m0000000000000000^2398"CompileC build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/vcWEBObjectIspector.o Classes/vcWEBObjectIspector.m normal i386 objective-c com.apple.compilers.gcc.4_2    cd /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer4/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer4/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-generated-files.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-own-target-headers.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-all-target-headers.hmap -iquote /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-project-headers.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/include -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/DerivedSources/i386 -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/DerivedSources -F/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator -include /var/folders/RB/RBRU7QmHFxCxDwvM-FllAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebServices_Prefix-fcxhsguguofaynbxzauvjhegucee/WebServices_Prefix.pch -c /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcWEBObjectIspector.m -o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/vcWEBObjectIspector.o
-
-CCompileXIB /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcConfigurations.xib
-s323701353.380387
-e323701354.383026
-r1
-xCompileXIB
-x/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcConfigurations.xib
-o2011-04-05 16:02:33.973 Interface Builder Cocoa Touch Tool[77465:1803] CFPreferences: user home directory at file://localhost/Users/viktorignatov/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compiling /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcConfigurations.xib327761694a4bb341^ae10626a4a4bb341^-248"2011-04-05 16:02:33.973 Interface Builder Cocoa Touch Tool[77465:1803] CFPreferences: user home directory at file://localhost/Users/viktorignatov/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcConfigurations.xib0000000000000000^693"CompileXIB Classes/vcConfigurations.xib    cd /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer    setenv PATH "/Developer4/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer4/usr/bin/..    /Developer4/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/WebServices.app/vcConfigurations.nib /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcConfigurations.xib --sdk /Developer4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
-
-CCompileXIB /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcMethod.xib
-s323682784.683596
-e323682784.731843
-r1
-xCompileXIB
-x/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcMethod.xib
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compiling /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcMethod.xib6b45afe0014bb341^ef59bbe0014bb341^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcMethod.xib0000000000000000^669"CompileXIB Classes/vcMethod.xib    cd /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer    setenv PATH "/Developer4/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer4/usr/bin/..    /Developer4/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/WebServices.app/vcMethod.nib /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcMethod.xib --sdk /Developer4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
-
-CCompileXIB /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcServices.xib
-s323682784.678957
-e323682784.710216
-r1
-xCompileXIB
-x/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcServices.xib
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compiling /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcServices.xibd6e4ade0014bb341^b6f7b5e0014bb341^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcServices.xib0000000000000000^675"CompileXIB Classes/vcServices.xib    cd /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer    setenv PATH "/Developer4/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer4/usr/bin/..    /Developer4/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/WebServices.app/vcServices.nib /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcServices.xib --sdk /Developer4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
-
-CCompileXIB /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcWEBObjectIspector.xib
-s323682784.461522
-e323682784.678622
-r1
-xCompileXIB
-x/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcWEBObjectIspector.xib
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compiling /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcWEBObjectIspector.xib9b3776e0014bb341^80baade0014bb341^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcWEBObjectIspector.xib0000000000000000^702"CompileXIB Classes/vcWEBObjectIspector.xib    cd /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer    setenv PATH "/Developer4/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer4/usr/bin/..    /Developer4/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/WebServices.app/vcWEBObjectIspector.nib /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/Classes/vcWEBObjectIspector.xib --sdk /Developer4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
-
-CCompileXIB /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/MainWindow.xib
-s323682777.349301
-e323682784.458550
-r1
-xCompileXIB
-x/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/MainWindow.xib
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compiling /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/MainWindow.xibfe7e59d9014bb341^fe6375e0014bb341^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/MainWindow.xib0000000000000000^659"CompileXIB MainWindow.xib    cd /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer    setenv PATH "/Developer4/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer4/usr/bin/..    /Developer4/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/WebServices.app/MainWindow.nib /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/MainWindow.xib --sdk /Developer4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
-
-CCompileXIB /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/RootViewController.xib
-s323700425.258000
-e323700425.957277
-r1
-xCompileXIB
-x/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/RootViewController.xib
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compiling /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/RootViewController.xib862142c9464bb341^4d10f5c9464bb341^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/RootViewController.xib0000000000000000^683"CompileXIB RootViewController.xib    cd /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer    setenv PATH "/Developer4/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer4/usr/bin/..    /Developer4/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/WebServices.app/RootViewController.nib /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/RootViewController.xib --sdk /Developer4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
-
-CGenerateDSYMFile /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/WebServices.app.dSYM /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/WebServices.app/WebServices
-s323702171.690864
-e323702171.723544
-r1
-xGenerateDSYMFile
-x/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/WebServices.app.dSYM
-x/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/WebServices.app/WebServices
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Generating /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/WebServices.app.dSYM14ebb09b4d4bb341^1c42b99b4d4bb341^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/WebServices.app.dSYM/0000000000000000^565"GenerateDSYMFile build/Debug-iphonesimulator/WebServices.app.dSYM build/Debug-iphonesimulator/WebServices.app/WebServices    cd /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer    setenv PATH "/Developer4/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer4/usr/bin/dsymutil /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/WebServices.app/WebServices -o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/WebServices.app.dSYM
-
-CLd /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/WebServices.app/WebServices normal i386
-s323702171.636359
-e323702171.690599
-r1
-xLd
-x/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/WebServices.app/WebServices
-xnormal
-xi386
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Link /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/WebServices.app/WebServicesd7faa29b4d4bb341^e2cbb09b4d4bb341^---0#0#0#--1070"Ld build/Debug-iphonesimulator/WebServices.app/WebServices normal i386    cd /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer4/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer4/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator -F/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator -filelist /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/Objects-normal/i386/WebServices.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/WebServices.app/WebServices
-
-CProcessInfoPlistFile /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/WebServices.app/Info.plist WebServices-Info.plist
-s323682777.342062
-e323682777.347625
-r1
-xProcessInfoPlistFile
-x/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/WebServices.app/Info.plist
-xWebServices-Info.plist
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection30"Process WebServices-Info.plist41bb57d9014bb341^22ff58d9014bb341^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/WebServices-Info.plist0000000000000000^637"ProcessInfoPlistFile build/Debug-iphonesimulator/WebServices.app/Info.plist WebServices-Info.plist    cd /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer    setenv PATH "/Developer4/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility WebServices-Info.plist -genpkginfo /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/WebServices.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/WebServices.app/Info.plist
-
-CProcessPCH /Users/viktorignatov/Library/Developer/Xcode/DerivedData/WebServices-biujebzgjommpzesldltndejvvoj/Index/PrecompiledHeaders/WebServices_Prefix-ffarpblvhruqjjcaworwbmpqttra_ast/WebServices_Prefix.pch.pth WebServices_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /var/folders/RB/RBRU7QmHFxCxDwvM-FllAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebServices_Prefix-fcxhsguguofaynbxzauvjhegucee/WebServices_Prefix.pch.gch WebServices_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s323682784.733531
-e323682797.725577
-r1
-xProcessPCH
-x/var/folders/RB/RBRU7QmHFxCxDwvM-FllAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebServices_Prefix-fcxhsguguofaynbxzauvjhegucee/WebServices_Prefix.pch.gch
-xWebServices_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile WebServices_Prefix.pch93e2bbe0014bb341^adbfb9ed014bb341^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/WebServices_Prefix.pch0000000000000000^2295"ProcessPCH /var/folders/RB/RBRU7QmHFxCxDwvM-FllAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebServices_Prefix-fcxhsguguofaynbxzauvjhegucee/WebServices_Prefix.pch.gch WebServices_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2    cd /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer4/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer4/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer4/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-generated-files.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-own-target-headers.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-all-target-headers.hmap -iquote /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/WebServices-project-headers.hmap -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/include -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/DerivedSources/i386 -I/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/WebServices.build/Debug-iphonesimulator/WebServices.build/DerivedSources -F/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator -c /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/WebServices_Prefix.pch -o /var/folders/RB/RBRU7QmHFxCxDwvM-FllAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WebServices_Prefix-fcxhsguguofaynbxzauvjhegucee/WebServices_Prefix.pch.gch
-
-CTouch /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/WebServices.app
-s323702171.725047
-e323702171.733234
-r1
-xTouch
-x/Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/WebServices.app
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Touch /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/WebServices.app8fabb99b4d4bb341^7fbcbb9b4d4bb341^---0#0#0#--364"Touch build/Debug-iphonesimulator/WebServices.app    cd /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer    setenv PATH "/Developer4/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/viktorignatov/Projects/WSDL/WEBServiceConsumer/build/Debug-iphonesimulator/WebServices.app
-
