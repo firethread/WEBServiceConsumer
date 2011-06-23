@@ -9,7 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface WebServicesAppDelegate : NSObject <UIApplicationDelegate> {
-    
     UIWindow *window;
     UINavigationController *navigationController;
 }
